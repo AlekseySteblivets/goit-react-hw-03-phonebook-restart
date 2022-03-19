@@ -7,13 +7,12 @@ class ContactForm extends Component {
         number: ''
     }
 
+
+
     handleInputChange = (evt) => {
         this.setState({
             [evt.currentTarget.name]: evt.currentTarget.value
         });
-        console.log(evt.currentTarget);
-        console.log(evt.currentTarget.name);
-        console.log(evt);
     }
 
     handleSubmit = (evt) => {
